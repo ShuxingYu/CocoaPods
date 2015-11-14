@@ -26,7 +26,7 @@ group :development do
   cp_gem 'cocoapods-trunk',       'cocoapods-trunk'
   cp_gem 'cocoapods-try',         'cocoapods-try'
   cp_gem 'molinillo',             'Molinillo'
-  cp_gem 'xcodeproj',             'Xcodeproj'
+  cp_gem 'xcodeproj',             'Xcodeproj', 'seg-project-track-dirty-status'
 
   gem 'cocoapods-dependencies'
 
