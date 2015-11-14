@@ -295,10 +295,9 @@ begin
 
   #-- Rubocop ----------------------------------------------------------------#
 
+  require 'rubocop/rake_task'
   desc 'Check code against RuboCop rules'
-  task :rubocop do
-    sh 'bundle exec rubocop lib spec Rakefile'
-  end
+  RuboCop::RakeTask.new
 
   #-- Inch -------------------------------------------------------------------#
 
