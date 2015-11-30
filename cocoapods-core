@@ -1,0 +1,2 @@
+localhost:~ yushuxing$ pod --version
+/Library/Ruby/Site/2.0.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- cocoapods-core (LoadError)
